@@ -37,14 +37,19 @@ The project allows users to view hotel details and book rooms through a simple a
 
 ---
 
-## ⚙️ Application Features
-- Simple hotel UI
-- Room booking form
-- Frontend and backend integration
-- Dockerized application
-- Cloud deployment on AWS
+## 🔗 API Endpoints
 
----
+### ➤ Book a Room
+- **URL:** `/book`
+- **Method:** `POST`
+- **Description:** Accepts booking details from frontend and processes the booking.
+
+#### Request Body (JSON)
+```json
+{
+  "name": "John",
+  "roomType": "Deluxe",
+  "date": "2025-12
 
 ## 🚀 How to Run the Project (Docker)
 
@@ -57,12 +62,12 @@ cd sk-hotel
 ### 🏠 Home Page
 Displays the SK Hotel landing page with room booking option.
 
-_(Screenshot will be added here)_
+_(c:\Users\srika\OneDrive\Pictures\Screenshots\Screenshot 2025-12-25 194024.png)_
 
 ### 📝 Booking Form
 Users can enter booking details like name, room type, and date.
 
-_(Screenshot will be added here)_
+_(c:\Users\srika\OneDrive\Pictures\Screenshots\Screenshot 2025-12-25 195352.png)_
 
 ### ✅ Booking Confirmation
 Shows successful booking response from backend.

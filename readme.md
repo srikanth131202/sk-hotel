@@ -52,4 +52,20 @@ The project allows users to view hotel details and book rooms through a simple a
 ```bash
 git clone https://github.com/<your-username>/sk-hotel.git
 cd sk-hotel
+## 📸 Screenshots
+
+### 🏠 Home Page
+Displays the SK Hotel landing page with room booking option.
+
+_(Screenshot will be added here)_
+
+### 📝 Booking Form
+Users can enter booking details like name, room type, and date.
+
+_(Screenshot will be added here)_
+
+### ✅ Booking Confirmation
+Shows successful booking response from backend.
+
+_(Screenshot will be added here)_
 

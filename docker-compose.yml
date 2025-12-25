@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  backend:
+    image: sk-hotel-backend
+    container_name: sk-hotel-backend
+    ports:
+      - "3000:3000"
+
+  frontend:
+    image: sk-hotel-frontend
+    container_name: sk-hotel-frontend
+    ports:
+      - "8081:80"
+    depends_on:
+      - backend

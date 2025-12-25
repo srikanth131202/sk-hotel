@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+/* HEADER */
+header {
+    background: #1e3c72;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* ROOMS */
+.rooms {
+    padding: 40px;
+    text-align: center;
+}
+
+.room-card {
+    background: white;
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.room-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.room-card button {
+    background: #1e3c72;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* BOOKING */
+.booking {
+    background: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.booking input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.booking button {
+    padding: 10px 20px;
+    background: #2a5298;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #1e3c72;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SK Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>🏨 SK Hotel</h1>
+    <nav>
+        <a href="#rooms">Rooms</a>
+        <a href="#booking">Book Now</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <h2>Luxury & Comfort</h2>
+    <p>Experience the best stay at affordable prices</p>
+</section>
+
+<!-- ROOMS SECTION -->
+<section id="rooms" class="rooms">
+    <h2>Our Rooms</h2>
+
+    <div class="room-card">
+        <img src="https://picsum.photos/300/200?1">
+        <h3>Deluxe Room</h3>
+        <p>₹2000 / night</p>
+        <button onclick="selectRoom('Deluxe Room')">Book</button>
+    </div>
+
+    <div class="room-card">
+        <img src="https://picsum.photos/300/200?2">
+        <h3>Suite Room</h3>
+        <p>₹3500 / night</p>
+        <button onclick="selectRoom('Suite Room')">Book</button>
+    </div>
+
+</section>
+
+<!-- BOOKING FORM -->
+<section id="booking" class="booking">
+    <h2>Book Your Stay</h2>
+
+    <form onsubmit="bookRoom(event)">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="date" id="date" required>
+        <input type="text" id="room" placeholder="Selected Room" readonly>
+        <button type="submit">Confirm Booking</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact">
+    <p>📍 Chennai | 📞 9876543210</p>
+    <p>© 2025 SK Hotel</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

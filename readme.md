@@ -34,6 +34,27 @@ The project allows users to view hotel details and book rooms through a simple a
 ---
 
 ## 📁 Project Structure
+sk-hotel/
+│
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── Dockerfile
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── Dockerfile
+│
+├── screenshots/
+│   ├── home.png
+│   ├── booking.png
+│   └── success.png
+│
+├── docker-compose.yml
+└── readme.md
 
 ---
 

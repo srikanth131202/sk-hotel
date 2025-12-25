@@ -1,27 +1,25 @@
 const express = require("express");
-const cors = require("cors");
 
-const app = express();
+const app = express();              // ✅ THIS WAS MISSING
 const PORT = 3000;
 
-// Middleware
-app.use(cors());
+// Middleware to read JSON body
 app.use(express.json());
 
-// Test API
+// Test route
 app.get("/", (req, res) => {
-  res.send("SK Hotel Backend is running");
+  res.json({ message: "Server running" });
 });
 
 // Booking API
 app.post("/book", (req, res) => {
-  const { name, room, date } = req.body;
+  const { name, roomType, date } = req.body;
 
-  console.log("Booking received:", name, room, date);
+  console.log("Booking received:", name, roomType, date);
 
   res.json({
     message: "Booking successful",
-    data: { name, room, date }
+    data: { name, roomType, date }
   });
 });
 
